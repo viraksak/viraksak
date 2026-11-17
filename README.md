@@ -25,7 +25,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/-VIRAKSAK_KOY-00f3ff?style=for-the-badge&logo=terminal&logoColor=060913" alt="Viraksak Koy" />
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-39ff14?style=for-the-badge&logo=statuspage&logoColor=39ff14&labelColor=060913" alt="Status Online" />
+  <img src="https://img.shields.io/badge/-AI_%26_DATA_SCIENCE-9d4edd?style=for-the-badge&logo=probot&logoColor=white" alt="AI & Data Science" />
+  <img src="https://img.shields.io/badge/-ML_%C2%B7_CV_%C2%B7_DS_%C2%B7_DA-0284c7?style=for-the-badge&logo=pytorch&logoColor=white" alt="ML CV DS DA" />
+  <br/>
   <a href="https://hust.edu.vn/"><img src="https://img.shields.io/badge/%F0%9F%8E%93%20university-hust-e74c3c" alt="University HUST" /></a>
 </p>
 
@@ -95,23 +97,6 @@
 
 <div align="center">
   <img src="assets/neural-core.svg" alt="Classified AI Research Lab Architecture" width="100%">
-</div>
-
-```
-── PROTOCOL: TACTICAL EXECUTION PIPELINE ───────────────────────────────────────────
-   THINK ──▶ EXPLORE ──▶ BUILD ──▶ TEST ──▶ IMPROVE ──▶ REPEAT (RESEARCH NEVER STOPS)
-───────────────────────────────────────────────────────────────────────────────────
-```
-
----
-
-<!-- ======================================================== -->
-<!-- 8. CHROME AURA                                           -->
-<!-- ======================================================== -->
-### 🔮ABOUT ME!
-
-<div align="center">
-  <img src="assets/chrome-aura.svg" alt="Viraksak KOY Chrome Aura Identity" width="100%">
 </div>
 
 ---
