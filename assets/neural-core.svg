@@ -1,216 +1,363 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="100%" height="100%">
   <defs>
-    <!-- Dark Tech Radial BG -->
-    <radialGradient id="coreBg" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#0a1128"/>
-      <stop offset="60%" stop-color="#030712"/>
+    <!-- Deep Space Volumetric Background -->
+    <radialGradient id="coreBg" cx="50%" cy="42%" r="68%">
+      <stop offset="0%" stop-color="#0d1b3e"/>
+      <stop offset="52%" stop-color="#050a18"/>
       <stop offset="100%" stop-color="#010206"/>
     </radialGradient>
 
-    <!-- Synapse Aura -->
+    <!-- Central 3D Volumetric Aura -->
     <radialGradient id="auraGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.8"/>
-      <stop offset="40%" stop-color="#8b5cf6" stop-opacity="0.4"/>
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.7"/>
+      <stop offset="35%" stop-color="#7c3aed" stop-opacity="0.35"/>
       <stop offset="70%" stop-color="#ec4899" stop-opacity="0.1"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Linear Synapse Gradients -->
-    <linearGradient id="layerGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f3ff"/>
-      <stop offset="100%" stop-color="#3b82f6"/>
+    <!-- 3D Floor Horizon Fade -->
+    <linearGradient id="floorFade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#00f3ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00f3ff" stop-opacity="0.03"/>
     </linearGradient>
 
-    <linearGradient id="layerGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3b82f6"/>
-      <stop offset="100%" stop-color="#a855f7"/>
+    <!-- 3D Glass Plane Gradients -->
+    <linearGradient id="glassCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="glassBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="glassPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="glassGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#39ff14" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#00f3ff" stop-opacity="0.04"/>
     </linearGradient>
 
-    <linearGradient id="layerGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#00f3ff"/>
+    <!-- 3D Shaded Sphere Gradients (Specular Highlight) -->
+    <radialGradient id="sphereCyan" cx="32%" cy="30%" r="68%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="28%" stop-color="#00f3ff"/>
+      <stop offset="75%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#082f49"/>
+    </radialGradient>
+
+    <radialGradient id="sphereBlue" cx="32%" cy="30%" r="68%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="28%" stop-color="#38bdf8"/>
+      <stop offset="75%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </radialGradient>
+
+    <radialGradient id="spherePurple" cx="32%" cy="30%" r="68%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="28%" stop-color="#c084fc"/>
+      <stop offset="75%" stop-color="#7e22ce"/>
+      <stop offset="100%" stop-color="#2e1065"/>
+    </radialGradient>
+
+    <radialGradient id="sphereGreen" cx="32%" cy="30%" r="68%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="28%" stop-color="#39ff14"/>
+      <stop offset="75%" stop-color="#15803d"/>
+      <stop offset="100%" stop-color="#052e16"/>
+    </radialGradient>
+
+    <radialGradient id="coreSphere3D" cx="34%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="22%" stop-color="#67e8f9"/>
+      <stop offset="55%" stop-color="#0ea5e9"/>
+      <stop offset="85%" stop-color="#4c1d95"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+
+    <!-- Synapse Path Gradients -->
+    <linearGradient id="syn1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="syn2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="syn3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#39ff14" stop-opacity="0.85"/>
     </linearGradient>
 
-    <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+    <!-- Glow Filters -->
+    <filter id="glowSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <filter id="packetGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+    <filter id="glowStrong" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-
-    <pattern id="matrixGrid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00f3ff" stroke-width="0.5" stroke-opacity="0.08"/>
-    </pattern>
   </defs>
 
   <style>
-    @keyframes pulseNode {
-      0%, 100% { transform: scale(1); opacity: 0.8; }
-      50% { transform: scale(1.3); opacity: 1; }
+    @keyframes floatLayer {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
     }
-    @keyframes pulseCoreHub {
-      0%, 100% { transform: scale(0.95); opacity: 0.7; }
-      50% { transform: scale(1.15); opacity: 1; }
+    @keyframes pulseAura {
+      0%, 100% { transform: scale(0.94); opacity: 0.75; }
+      50% { transform: scale(1.1); opacity: 1; }
     }
-    @keyframes spinWheel {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-    @keyframes spinWheelRev {
-      0% { transform: rotate(360deg); }
-      100% { transform: rotate(0deg); }
-    }
-    @keyframes streamFast {
-      0% { stroke-dashoffset: 160; }
+    @keyframes dashFlow {
+      0% { stroke-dashoffset: 180; }
       100% { stroke-dashoffset: 0; }
     }
-    @keyframes streamFastRev {
-      0% { stroke-dashoffset: -160; }
+    @keyframes dashFlowRev {
+      0% { stroke-dashoffset: -180; }
       100% { stroke-dashoffset: 0; }
     }
-    @keyframes blinkText {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.3; }
+    @keyframes ringPulse {
+      0%, 100% { stroke-opacity: 0.45; }
+      50% { stroke-opacity: 0.95; }
     }
-
-    .node-p {
-      animation: pulseNode 3s ease-in-out infinite;
-    }
-    .node-hub {
-      transform-origin: 400px 180px;
-      animation: pulseCoreHub 3.5s ease-in-out infinite;
-    }
-    .hud-spin {
-      transform-origin: 400px 180px;
-      animation: spinWheel 22s linear infinite;
-    }
-    .hud-spin-rev {
-      transform-origin: 400px 180px;
-      animation: spinWheelRev 16s linear infinite;
-    }
-    .synapse-stream1 {
-      stroke-dasharray: 6, 12;
-      animation: streamFast 2s linear infinite;
-    }
-    .synapse-stream2 {
-      stroke-dasharray: 8, 16;
-      animation: streamFastRev 2.8s linear infinite;
-    }
-    .blink-status {
-      animation: blinkText 1.6s ease-in-out infinite;
-    }
-    .code-font {
-      font-family: 'JetBrains Mono', 'Fira Code', monospace;
-    }
+    .layer-float-1 { animation: floatLayer 4.2s ease-in-out infinite; }
+    .layer-float-2 { animation: floatLayer 4.2s ease-in-out 0.6s infinite; }
+    .layer-float-3 { animation: floatLayer 4.2s ease-in-out 1.2s infinite; }
+    .layer-float-4 { animation: floatLayer 4.2s ease-in-out 1.8s infinite; }
+    .core-aura { transform-origin: 400px 168px; animation: pulseAura 3.4s ease-in-out infinite; }
+    .stream-fwd { stroke-dasharray: 5 11; animation: dashFlow 2.2s linear infinite; }
+    .stream-rev { stroke-dasharray: 7 14; animation: dashFlowRev 2.8s linear infinite; }
+    .orbit-ring { animation: ringPulse 3s ease-in-out infinite; }
+    .code-font { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
   </style>
 
   <!-- Frame Background -->
-  <rect width="800" height="360" fill="url(#coreBg)" rx="14"/>
+  <rect width="800" height="380" fill="url(#coreBg)" rx="14"/>
+  <rect x="1.5" y="1.5" width="797" height="377" fill="none" stroke="#00f3ff" stroke-opacity="0.18" stroke-width="1" rx="13"/>
 
-  <!-- Central Aura & HUD Rings -->
-  <circle class="node-hub" cx="400" cy="180" r="130" fill="url(#auraGlow)"/>
-  <circle class="hud-spin" cx="400" cy="180" r="95" fill="none" stroke="#00f3ff" stroke-width="1" stroke-dasharray="14 20 6 12" stroke-opacity="0.6"/>
-  <circle class="hud-spin-rev" cx="400" cy="180" r="75" fill="none" stroke="#a855f7" stroke-width="1.2" stroke-dasharray="25 15 8 10" stroke-opacity="0.5"/>
-  <circle cx="400" cy="180" r="55" fill="none" stroke="#00f3ff" stroke-width="1" stroke-dasharray="4 6" stroke-opacity="0.7"/>
-
-  <!-- Deep Neural Network Architecture -->
-  <!-- Layer 0: Input Features (X = 140) -->
-  <!-- Layer 1: Encoder / Latent (X = 270) -->
-  <!-- Layer 2: Central Attention Node (X = 400) -->
-  <!-- Layer 3: Decoder / Transformer (X = 530) -->
-  <!-- Layer 4: Prediction Heads (X = 660) -->
-
-  <!-- Network Interconnection Synapse Lines -->
-  <g opacity="0.75">
-    <!-- Input to Encoder -->
-    <path class="synapse-stream1" d="M 140 90 L 270 120" stroke="url(#layerGrad1)" stroke-width="1.2"/>
-    <path d="M 140 90 L 270 180" stroke="#00f3ff" stroke-opacity="0.2" stroke-width="1"/>
-    <path class="synapse-stream2" d="M 140 150 L 270 120" stroke="url(#layerGrad1)" stroke-width="1.2"/>
-    <path class="synapse-stream1" d="M 140 150 L 270 180" stroke="url(#layerGrad1)" stroke-width="1.5"/>
-    <path d="M 140 150 L 270 240" stroke="#00f3ff" stroke-opacity="0.2" stroke-width="1"/>
-    <path class="synapse-stream2" d="M 140 210 L 270 180" stroke="url(#layerGrad1)" stroke-width="1.2"/>
-    <path class="synapse-stream1" d="M 140 210 L 270 240" stroke="url(#layerGrad1)" stroke-width="1.2"/>
-    <path d="M 140 270 L 270 240" stroke="#00f3ff" stroke-opacity="0.25" stroke-width="1"/>
-
-    <!-- Encoder to Center Core -->
-    <path class="synapse-stream1" d="M 270 120 L 400 180" stroke="url(#layerGrad2)" stroke-width="2"/>
-    <path class="synapse-stream2" d="M 270 180 L 400 180" stroke="url(#layerGrad2)" stroke-width="2.5"/>
-    <path class="synapse-stream1" d="M 270 240 L 400 180" stroke="url(#layerGrad2)" stroke-width="2"/>
-
-    <!-- Center Core to Decoder -->
-    <path class="synapse-stream2" d="M 400 180 L 530 120" stroke="url(#layerGrad3)" stroke-width="2"/>
-    <path class="synapse-stream1" d="M 400 180 L 530 180" stroke="url(#layerGrad3)" stroke-width="2.5"/>
-    <path class="synapse-stream2" d="M 400 180 L 530 240" stroke="url(#layerGrad3)" stroke-width="2"/>
-
-    <!-- Decoder to Output Heads -->
-    <path class="synapse-stream1" d="M 530 120 L 660 110" stroke="url(#layerGrad1)" stroke-width="1.5"/>
-    <path d="M 530 120 L 660 180" stroke="#00f3ff" stroke-opacity="0.2" stroke-width="1"/>
-    <path class="synapse-stream2" d="M 530 180 L 660 110" stroke="url(#layerGrad1)" stroke-width="1.2"/>
-    <path class="synapse-stream1" d="M 530 180 L 660 180" stroke="url(#layerGrad1)" stroke-width="1.5"/>
-    <path class="synapse-stream2" d="M 530 180 L 660 250" stroke="url(#layerGrad1)" stroke-width="1.2"/>
-    <path d="M 530 240 L 660 180" stroke="#00f3ff" stroke-opacity="0.2" stroke-width="1"/>
-    <path class="synapse-stream1" d="M 530 240 L 660 250" stroke="url(#layerGrad1)" stroke-width="1.5"/>
+  <!-- 3D Perspective Floor Grid -->
+  <g stroke="url(#floorFade)" stroke-width="0.8">
+    <!-- Vanishing Point Perspective Rays from (400, 110) -->
+    <line x1="400" y1="225" x2="20"  y2="345"/>
+    <line x1="400" y1="225" x2="115" y2="345"/>
+    <line x1="400" y1="225" x2="210" y2="345"/>
+    <line x1="400" y1="225" x2="305" y2="345"/>
+    <line x1="400" y1="225" x2="400" y2="345"/>
+    <line x1="400" y1="225" x2="495" y2="345"/>
+    <line x1="400" y1="225" x2="590" y2="345"/>
+    <line x1="400" y1="225" x2="685" y2="345"/>
+    <line x1="400" y1="225" x2="780" y2="345"/>
+  </g>
+  <g stroke="#00f3ff" stroke-width="0.6" stroke-opacity="0.12">
+    <line x1="180" y1="252" x2="620" y2="252"/>
+    <line x1="130" y1="268" x2="670" y2="268"/>
+    <line x1="85"  y1="288" x2="715" y2="288"/>
+    <line x1="45"  y1="312" x2="755" y2="312"/>
+    <line x1="15"  y1="340" x2="785" y2="340"/>
   </g>
 
-  <!-- Synaptic Nodes -->
-  <!-- Layer 0 Nodes -->
-  <g fill="#00f3ff" filter="url(#nodeGlow)">
-    <circle cx="140" cy="90" r="5" class="node-p"/>
-    <circle cx="140" cy="150" r="5" class="node-p"/>
-    <circle cx="140" cy="210" r="5" class="node-p"/>
-    <circle cx="140" cy="270" r="5" class="node-p"/>
+  <!-- Central Volumetric Glow -->
+  <circle class="core-aura" cx="400" cy="168" r="145" fill="url(#auraGlow)"/>
+
+  <!-- 3D Back Orbital Rings (Behind Core) -->
+  <g transform="translate(400,168)">
+    <ellipse class="orbit-ring" cx="0" cy="0" rx="115" ry="38" transform="rotate(-24)" fill="none" stroke="#a855f7" stroke-width="1.1" stroke-dasharray="10 8"/>
+    <ellipse class="orbit-ring" cx="0" cy="0" rx="115" ry="38" transform="rotate(24)" fill="none" stroke="#00f3ff" stroke-width="1.1" stroke-dasharray="14 10"/>
+    <ellipse cx="0" cy="0" rx="92" ry="26" fill="none" stroke="#38bdf8" stroke-width="0.9" stroke-opacity="0.45" stroke-dasharray="4 6"/>
   </g>
 
-  <!-- Layer 1 Nodes -->
-  <g fill="#38bdf8" filter="url(#nodeGlow)">
-    <circle cx="270" cy="120" r="6" class="node-p"/>
-    <circle cx="270" cy="180" r="6" class="node-p"/>
-    <circle cx="270" cy="240" r="6" class="node-p"/>
+  <!-- 3D Curved Synapses (Back Layer - Lower Opacity) -->
+  <g fill="none" opacity="0.32">
+    <path d="M 110 105 C 165 105, 190 140, 240 135" stroke="#00f3ff" stroke-width="1"/>
+    <path d="M 110 225 C 165 225, 190 190, 240 215" stroke="#00f3ff" stroke-width="1"/>
+    <path d="M 560 135 C 610 140, 635 110, 690 115" stroke="#39ff14" stroke-width="1"/>
+    <path d="M 560 215 C 610 190, 635 220, 690 220" stroke="#39ff14" stroke-width="1"/>
   </g>
 
-  <!-- Center Core Master Node -->
-  <circle cx="400" cy="180" r="32" fill="#030712" stroke="#00f3ff" stroke-width="2.5" filter="url(#packetGlow)"/>
-  <circle cx="400" cy="180" r="22" fill="#00f3ff" fill-opacity="0.25" class="node-hub"/>
-  <circle cx="400" cy="180" r="8" fill="#ffffff" filter="url(#nodeGlow)"/>
-
-  <!-- Layer 3 Nodes -->
-  <g fill="#a855f7" filter="url(#nodeGlow)">
-    <circle cx="530" cy="120" r="6" class="node-p"/>
-    <circle cx="530" cy="180" r="6" class="node-p"/>
-    <circle cx="530" cy="240" r="6" class="node-p"/>
+  <!-- ======================================================== -->
+  <!-- LAYER 0: 3D INPUT TILTED GLASS PLANE (Left)              -->
+  <!-- ======================================================== -->
+  <g class="layer-float-1">
+    <!-- 3D Extrusion Depth -->
+    <polygon points="84,78 134,58 140,62 90,82" fill="#00f3ff" fill-opacity="0.22"/>
+    <polygon points="134,58 140,62 140,262 134,258" fill="#0284c7" fill-opacity="0.28"/>
+    <!-- Front Tilted Glass Face -->
+    <polygon points="84,78 134,58 134,258 84,278" fill="url(#glassCyan)" stroke="#00f3ff" stroke-opacity="0.55" stroke-width="1.2"/>
+    <!-- Internal 3D Grid Lines on Plane -->
+    <line x1="84" y1="145" x2="134" y2="125" stroke="#00f3ff" stroke-opacity="0.18" stroke-width="0.7"/>
+    <line x1="84" y1="212" x2="134" y2="192" stroke="#00f3ff" stroke-opacity="0.18" stroke-width="0.7"/>
+    <line x1="109" y1="68" x2="109" y2="268" stroke="#00f3ff" stroke-opacity="0.18" stroke-width="0.7"/>
   </g>
 
-  <!-- Layer 4 Prediction Nodes -->
-  <g fill="#00f3ff" filter="url(#nodeGlow)">
-    <circle cx="660" cy="110" r="5.5" class="node-p"/>
-    <circle cx="660" cy="180" r="6" fill="#39ff14" class="node-p"/>
-    <circle cx="660" cy="250" r="5.5" class="node-p"/>
+  <!-- ======================================================== -->
+  <!-- LAYER 1: 3D LATENT ENCODER PLANE                         -->
+  <!-- ======================================================== -->
+  <g class="layer-float-2">
+    <polygon points="216,94 264,76 270,80 222,98" fill="#38bdf8" fill-opacity="0.22"/>
+    <polygon points="264,76 270,80 270,254 264,250" fill="#1d4ed8" fill-opacity="0.28"/>
+    <polygon points="216,94 264,76 264,250 216,268" fill="url(#glassBlue)" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.2"/>
+    <line x1="216" y1="152" x2="264" y2="134" stroke="#38bdf8" stroke-opacity="0.18" stroke-width="0.7"/>
+    <line x1="216" y1="210" x2="264" y2="192" stroke="#38bdf8" stroke-opacity="0.18" stroke-width="0.7"/>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- LAYER 3: 3D DECODER BLOCK PLANE                          -->
+  <!-- ======================================================== -->
+  <g class="layer-float-3">
+    <polygon points="536,76 584,94 578,98 530,80" fill="#a855f7" fill-opacity="0.22"/>
+    <polygon points="530,80 536,76 536,250 530,254" fill="#6b21a8" fill-opacity="0.28"/>
+    <polygon points="536,76 584,94 584,268 536,250" fill="url(#glassPurple)" stroke="#a855f7" stroke-opacity="0.55" stroke-width="1.2"/>
+    <line x1="536" y1="134" x2="584" y2="152" stroke="#a855f7" stroke-opacity="0.18" stroke-width="0.7"/>
+    <line x1="536" y1="192" x2="584" y2="210" stroke="#a855f7" stroke-opacity="0.18" stroke-width="0.7"/>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- LAYER 4: 3D PREDICTION HEADS PLANE (Right)               -->
+  <!-- ======================================================== -->
+  <g class="layer-float-4">
+    <polygon points="666,58 716,78 710,82 660,62" fill="#39ff14" fill-opacity="0.22"/>
+    <polygon points="660,62 666,58 666,258 660,262" fill="#15803d" fill-opacity="0.28"/>
+    <polygon points="666,58 716,78 716,278 666,258" fill="url(#glassGreen)" stroke="#39ff14" stroke-opacity="0.55" stroke-width="1.2"/>
+    <line x1="666" y1="125" x2="716" y2="145" stroke="#39ff14" stroke-opacity="0.18" stroke-width="0.7"/>
+    <line x1="666" y1="192" x2="716" y2="212" stroke="#39ff14" stroke-opacity="0.18" stroke-width="0.7"/>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- 3D CURVED SYNAPSE STREAMS & TRAVELING PACKETS            -->
+  <!-- ======================================================== -->
+  <g fill="none">
+    <!-- Input -> Encoder -->
+    <path id="p1" class="stream-fwd" d="M 109 102 C 160 102, 185 124, 240 124" stroke="url(#syn1)" stroke-width="1.4"/>
+    <path id="p2" class="stream-rev" d="M 109 156 C 165 156, 185 172, 240 172" stroke="url(#syn1)" stroke-width="1.6"/>
+    <path id="p3" class="stream-fwd" d="M 109 214 C 165 214, 185 220, 240 220" stroke="url(#syn1)" stroke-width="1.4"/>
+
+    <!-- Encoder -> 3D Attention Core -->
+    <path id="p4" class="stream-fwd" d="M 240 124 C 305 124, 330 168, 400 168" stroke="url(#syn2)" stroke-width="1.9"/>
+    <path id="p5" class="stream-rev" d="M 240 172 C 305 172, 335 168, 400 168" stroke="url(#syn2)" stroke-width="2.2"/>
+    <path id="p6" class="stream-fwd" d="M 240 220 C 305 220, 330 168, 400 168" stroke="url(#syn2)" stroke-width="1.9"/>
+
+    <!-- 3D Attention Core -> Decoder -->
+    <path id="p7" class="stream-rev" d="M 400 168 C 470 168, 495 124, 560 124" stroke="url(#syn3)" stroke-width="1.9"/>
+    <path id="p8" class="stream-fwd" d="M 400 168 C 465 168, 495 172, 560 172" stroke="url(#syn3)" stroke-width="2.2"/>
+    <path id="p9" class="stream-rev" d="M 400 168 C 470 168, 495 220, 560 220" stroke="url(#syn3)" stroke-width="1.9"/>
+
+    <!-- Decoder -> Prediction Heads -->
+    <path id="p10" class="stream-fwd" d="M 560 124 C 615 124, 640 112, 691 112" stroke="url(#syn3)" stroke-width="1.5"/>
+    <path id="p11" class="stream-rev" d="M 560 172 C 615 172, 640 168, 691 168" stroke="url(#syn3)" stroke-width="1.8"/>
+    <path id="p12" class="stream-fwd" d="M 560 220 C 615 220, 640 224, 691 224" stroke="url(#syn3)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Animated 3D Data Packets Traveling Along Curves -->
+  <g filter="url(#glowSoft)">
+    <circle r="3" fill="#00f3ff">
+      <animateMotion dur="2.1s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion>
+    </circle>
+    <circle r="3.2" fill="#38bdf8">
+      <animateMotion dur="1.8s" begin="0.4s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion>
+    </circle>
+    <circle r="3.5" fill="#c084fc">
+      <animateMotion dur="1.7s" begin="0.2s" repeatCount="indefinite"><mpath href="#p4"/></animateMotion>
+    </circle>
+    <circle r="3.5" fill="#00f3ff">
+      <animateMotion dur="1.5s" begin="0.8s" repeatCount="indefinite"><mpath href="#p5"/></animateMotion>
+    </circle>
+    <circle r="3.5" fill="#a855f7">
+      <animateMotion dur="1.6s" begin="0.3s" repeatCount="indefinite"><mpath href="#p8"/></animateMotion>
+    </circle>
+    <circle r="3.2" fill="#39ff14">
+      <animateMotion dur="1.9s" begin="0.6s" repeatCount="indefinite"><mpath href="#p11"/></animateMotion>
+    </circle>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- 3D SHADED NEURON SPHERES ON PLANES                       -->
+  <!-- ======================================================== -->
+  <!-- Layer 0 Spheres -->
+  <g filter="url(#glowSoft)">
+    <circle cx="109" cy="102" r="7.5" fill="url(#sphereCyan)"/>
+    <circle cx="109" cy="156" r="8"   fill="url(#sphereCyan)"/>
+    <circle cx="109" cy="214" r="7.5" fill="url(#sphereCyan)"/>
+  </g>
+
+  <!-- Layer 1 Spheres -->
+  <g filter="url(#glowSoft)">
+    <circle cx="240" cy="124" r="8.5" fill="url(#sphereBlue)"/>
+    <circle cx="240" cy="172" r="9"   fill="url(#sphereBlue)"/>
+    <circle cx="240" cy="220" r="8.5" fill="url(#sphereBlue)"/>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- 3D CENTRAL ATTENTION CORE SPHERE + GYROSCOPE             -->
+  <!-- ======================================================== -->
+  <g transform="translate(400,168)">
+    <!-- Outer Holographic Shell -->
+    <circle cx="0" cy="0" r="44" fill="none" stroke="#00f3ff" stroke-opacity="0.45" stroke-width="1.4" filter="url(#glowStrong)"/>
+    <!-- 3D Shaded Core Sphere -->
+    <circle cx="0" cy="0" r="34" fill="url(#coreSphere3D)" filter="url(#glowStrong)"/>
+    <!-- 3D Wireframe Latitude / Longitude Arcs on Sphere -->
+    <ellipse cx="0" cy="0" rx="34" ry="12" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="0.8"/>
+    <ellipse cx="0" cy="0" rx="14" ry="34" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.8"/>
+    <!-- Specular Core Spark -->
+    <circle cx="-10" cy="-11" r="4.5" fill="#ffffff" fill-opacity="0.85"/>
+
+    <!-- Orbiting 3D Satellite Particles -->
+    <circle r="3.5" fill="#00f3ff" filter="url(#glowSoft)">
+      <animateMotion dur="4.5s" repeatCount="indefinite" path="M -115,0 A 115,38 0 1,0 115,0 A 115,38 0 1,0 -115,0"/>
+      <animateTransform attributeName="transform" type="rotate" from="-24" to="-24" additive="sum"/>
+    </circle>
+    <circle r="3.5" fill="#c084fc" filter="url(#glowSoft)">
+      <animateMotion dur="5.2s" begin="1.2s" repeatCount="indefinite" path="M 115,0 A 115,38 0 1,0 -115,0 A 115,38 0 1,0 115,0"/>
+      <animateTransform attributeName="transform" type="rotate" from="24" to="24" additive="sum"/>
+    </circle>
+  </g>
+
+  <!-- Layer 3 Spheres -->
+  <g filter="url(#glowSoft)">
+    <circle cx="560" cy="124" r="8.5" fill="url(#spherePurple)"/>
+    <circle cx="560" cy="172" r="9"   fill="url(#spherePurple)"/>
+    <circle cx="560" cy="220" r="8.5" fill="url(#spherePurple)"/>
+  </g>
+
+  <!-- Layer 4 Prediction Spheres -->
+  <g filter="url(#glowSoft)">
+    <circle cx="691" cy="112" r="7.5" fill="url(#sphereCyan)"/>
+    <circle cx="691" cy="168" r="9"   fill="url(#sphereGreen)"/>
+    <circle cx="691" cy="224" r="7.5" fill="url(#sphereCyan)"/>
   </g>
 
   <!-- Architecture Sub-labels -->
-  <g class="code-font" font-size="9" fill="#94a3b8" text-anchor="middle">
-    <text x="140" y="305">INPUT_LAYER</text>
-    <text x="270" y="305">LATENT_ENCODER</text>
-    <text x="400" y="305" fill="#00f3ff" font-weight="700">ATTENTION_CORE</text>
-    <text x="530" y="305">DECODER_BLOCK</text>
-    <text x="660" y="305" fill="#39ff14">PREDICTION_HEADS</text>
+  <g class="code-font" font-size="9" fill="#94a3b8" text-anchor="middle" letter-spacing="0.6">
+    <text x="109" y="302">INPUT_LAYER</text>
+    <text x="240" y="302">LATENT_ENCODER</text>
+    <text x="400" y="302" fill="#00f3ff" font-weight="700">3D_ATTENTION_CORE</text>
+    <text x="560" y="302">DECODER_BLOCK</text>
+    <text x="691" y="302" fill="#39ff14" font-weight="700">PREDICTION_HEADS</text>
+  </g>
+
+  <!-- HUD Corner Brackets -->
+  <g stroke="#00f3ff" stroke-opacity="0.45" stroke-width="1.5" fill="none">
+    <path d="M 18 32 L 18 18 L 32 18"/>
+    <path d="M 768 18 L 782 18 L 782 32"/>
+    <path d="M 18 348 L 18 362 L 32 362"/>
+    <path d="M 768 362 L 782 362 L 782 348"/>
   </g>
 
   <!-- Bottom HUD Metrics -->
-  <g class="code-font" font-size="9" fill="#64748b" transform="translate(40, 335)">
+  <g class="code-font" font-size="9" fill="#64748b" transform="translate(42, 355)">
     <text x="0" y="0">EPOCH: <tspan fill="#38bdf8">1,024/1,024</tspan></text>
-    <text x="140" y="0">LOSS: <tspan fill="#39ff14">0.00182</tspan></text>
+    <text x="145" y="0">LOSS: <tspan fill="#39ff14">0.00182</tspan></text>
     <text x="260" y="0">VAL_ACC: <tspan fill="#39ff14">99.42%</tspan></text>
-    <text x="400" y="0">WEIGHTS: <tspan fill="#a855f7">FP16 OPTIMIZED</tspan></text>
-    <text x="560" y="0">INFERENCE: <tspan fill="#00f3ff">REAL-TIME 120 FPS</tspan></text>
+    <text x="395" y="0">WEIGHTS: <tspan fill="#a855f7">FP16 OPTIMIZED</tspan></text>
+    <text x="555" y="0">INFERENCE: <tspan fill="#00f3ff">REAL-TIME 120 FPS</tspan></text>
   </g>
 </svg>

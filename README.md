@@ -32,7 +32,7 @@
   <img src="https://img.shields.io/badge/ROLE-AI_%26_DATA_SCIENCE-9d4edd?style=for-the-badge&logo=probot&logoColor=c77dff&labelColor=060913" alt="Role AI & Data Science" />
   <img src="https://img.shields.io/badge/STATUS-ONLINE-39ff14?style=for-the-badge&logo=statuspage&logoColor=39ff14&labelColor=060913" alt="Status Online" />
   <br/>
-  <img src="https://img.shields.io/badge/CAMPUS-HANOI_UNIVERSITY_OF_SCIENCE_AND_TECHNOLOGY-ff007a?style=for-the-badge&logo=google-earth&logoColor=ff007a&labelColor=060913" alt="Campus Hanoi University of Science and Technology" />
+  <a href="https://hust.edu.vn/"><img src="https://img.shields.io/badge/%F0%9F%8E%93%20university-hust-e74c3c" alt="University HUST" /></a>
   <img src="https://img.shields.io/badge/FOCUS-ML_%C2%B7_CV_%C2%B7_DS_%C2%B7_DA-0284c7?style=for-the-badge&logo=pytorch&logoColor=38bdf8&labelColor=060913" alt="Focus ML CV DS DA" />
 </p>
 
