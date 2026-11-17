@@ -30,12 +30,10 @@
 <p align="center">
   <img src="https://img.shields.io/badge/OPERATOR-VIRAKSAK_KOY-00f3ff?style=for-the-badge&logo=terminal&logoColor=00f3ff&labelColor=060913" alt="Operator Viraksak Koy" />
   <img src="https://img.shields.io/badge/ROLE-AI_%26_DATA_SCIENCE-9d4edd?style=for-the-badge&logo=probot&logoColor=c77dff&labelColor=060913" alt="Role AI & Data Science" />
-  <img src="https://img.shields.io/badge/CAMPUS-HUST_K69-ff007a?style=for-the-badge&logo=google-earth&logoColor=ff007a&labelColor=060913" alt="Campus HUST K69" />
   <img src="https://img.shields.io/badge/STATUS-ONLINE-39ff14?style=for-the-badge&logo=statuspage&logoColor=39ff14&labelColor=060913" alt="Status Online" />
   <br/>
-  <img src="https://img.shields.io/badge/FOCUS-ML_%C2%B7_CV_%C2%B7_BACKEND-0284c7?style=for-the-badge&logo=pytorch&logoColor=38bdf8&labelColor=060913" alt="Focus ML CV Backend" />
-  <img src="https://img.shields.io/github/followers/viraksak?style=for-the-badge&logo=github&logoColor=00f3ff&label=FOLLOWERS&labelColor=060913&color=00f3ff" alt="GitHub Followers" />
-  <img src="https://komarev.com/ghpvc/?username=viraksak&style=for-the-badge&label=VISITORS&labelColor=060913&color=9d4edd" alt="Profile Visitors" />
+  <img src="https://img.shields.io/badge/CAMPUS-HANOI_UNIVERSITY_OF_SCIENCE_AND_TECHNOLOGY-ff007a?style=for-the-badge&logo=google-earth&logoColor=ff007a&labelColor=060913" alt="Campus Hanoi University of Science and Technology" />
+  <img src="https://img.shields.io/badge/FOCUS-ML_%C2%B7_CV_%C2%B7_DS_%C2%B7_DA-0284c7?style=for-the-badge&logo=pytorch&logoColor=38bdf8&labelColor=060913" alt="Focus ML CV DS DA" />
 </p>
 
 </div>
@@ -53,13 +51,44 @@
 
 <div align="center">
 
-#### 🔹 I code with
+#### 🔹 PROGRAMMING LANGUAGES
 
-[![Core Stack](https://skillicons.dev/icons?i=python,java,c,cpp,html,css,pytorch,sklearn,opencv,fastapi,nextjs,tailwind,postgres,mysql&perline=7)](https://skillicons.dev)
+[![Programming Languages](https://skillicons.dev/icons?i=python,c,cpp,java,r,js,ts&perline=7)](https://skillicons.dev)
+<br/>
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=060913" alt="SQL" />
 
-#### 🔹 Tools & DevOps
+#### 🔹 DATA SCIENCE & ANALYTICS
 
-[![Tools & DevOps](https://skillicons.dev/icons?i=git,github,vscode,docker,anaconda,postman&perline=6)](https://skillicons.dev)
+<img src="https://img.shields.io/badge/Data_Science-00f3ff?style=for-the-badge&logo=databricks&logoColor=00f3ff&labelColor=060913" alt="Data Science" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white&labelColor=060913" alt="Pandas" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=38bdf8&labelColor=060913" alt="NumPy" />
+<img src="https://img.shields.io/badge/EDA-0284c7?style=for-the-badge&logo=google-analytics&logoColor=white&labelColor=060913" alt="EDA" />
+<img src="https://img.shields.io/badge/Statistics-10b981?style=for-the-badge&logo=quicklook&logoColor=white&labelColor=060913" alt="Statistics" />
+<img src="https://img.shields.io/badge/Data_Visualization-6366f1?style=for-the-badge&logo=plotly&logoColor=white&labelColor=060913" alt="Data Visualization" />
+<br/>
+<img src="https://img.shields.io/badge/Data_Analytics-0ea5e9?style=for-the-badge&logo=google-analytics&logoColor=white&labelColor=060913" alt="Data Analytics" />
+<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white&labelColor=060913" alt="Excel" />
+<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white&labelColor=060913" alt="Tableau" />
+<img src="https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=google-bigquery&logoColor=white&labelColor=060913" alt="BigQuery" />
+<img src="https://img.shields.io/badge/Spreadsheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white&labelColor=060913" alt="Spreadsheets" />
+
+#### 🔹 AI / MACHINE LEARNING & COMPUTER VISION
+
+[![AI & Computer Vision](https://skillicons.dev/icons?i=opencv)](https://skillicons.dev)
+<br/>
+<img src="https://img.shields.io/badge/Machine_Learning-00f3ff?style=for-the-badge&logo=scikit-learn&logoColor=00f3ff&labelColor=060913" alt="Machine Learning" />
+<img src="https://img.shields.io/badge/Computer_Vision-ff007a?style=for-the-badge&logo=opencv&logoColor=ff007a&labelColor=060913" alt="Computer Vision" />
+<img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=target&logoColor=00FFFF&labelColor=060913" alt="YOLO" />
+
+#### 🔹 WEB, BACKEND & DATABASES
+
+[![Web Backend Databases](https://skillicons.dev/icons?i=nextjs,fastapi,postgres,firebase&perline=4)](https://skillicons.dev)
+<br/>
+<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white&labelColor=060913" alt="SQL Server" />
+
+#### 🔹 TOOLS & DEVOPS
+
+[![Tools & DevOps](https://skillicons.dev/icons?i=git,github,docker&perline=3)](https://skillicons.dev)
 
 </div>
 
