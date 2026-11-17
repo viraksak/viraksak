@@ -19,21 +19,14 @@
 
 <br/>
 <!-- ======================================================== -->
-<!-- 3. ANIMATED SYSTEM STATUS / TYPING                       -->
+<!-- 3. IDENTITY BADGES                                       -->
 <!-- ======================================================== -->
 <div align="center">
 
-<a href="https://github.com/viraksak">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=1000&color=00F3FF&center=true&vCenter=true&multiline=false&width=780&height=40&lines=%E2%9A%A1+SYS_STATUS%3A+ONLINE+%7C%7C+OPERATING+MODE%3A+BUILDING+%2F%2F+LEARNING+%2F%2F+RESEARCH;%F0%9F%A7%A0+NEURAL+CORE%3A+DATA+SCIENCE+%26+ARTIFICIAL+INTELLIGENCE+RESEARCH;%F0%9F%9B%B0%EF%B8%8F+BASE%3A+HANOI+UNIVERSITY+OF+SCIENCE+AND+TECHNOLOGY+(HUST)+%2F%2F+K69;%F0%9F%94%AD+EXPERIMENT%3A+COMPUTER+VISION+%E2%80%94+OBJECT+DETECTION+%26+TRACKING;%F0%9F%92%BE+OPERATOR%3A+VIRAKSAK+KOY+%7C%7C+MISSION%3A+BUILD+INTELLIGENT+SYSTEMS" alt="System Status Console Typing" />
-</a>
-
 <p align="center">
-  <img src="https://img.shields.io/badge/OPERATOR-VIRAKSAK_KOY-00f3ff?style=for-the-badge&logo=terminal&logoColor=00f3ff&labelColor=060913" alt="Operator Viraksak Koy" />
-  <img src="https://img.shields.io/badge/ROLE-AI_%26_DATA_SCIENCE-9d4edd?style=for-the-badge&logo=probot&logoColor=c77dff&labelColor=060913" alt="Role AI & Data Science" />
+  <img src="https://img.shields.io/badge/-VIRAKSAK_KOY-00f3ff?style=for-the-badge&logo=terminal&logoColor=060913" alt="Viraksak Koy" />
   <img src="https://img.shields.io/badge/STATUS-ONLINE-39ff14?style=for-the-badge&logo=statuspage&logoColor=39ff14&labelColor=060913" alt="Status Online" />
-  <br/>
   <a href="https://hust.edu.vn/"><img src="https://img.shields.io/badge/%F0%9F%8E%93%20university-hust-e74c3c" alt="University HUST" /></a>
-  <img src="https://img.shields.io/badge/FOCUS-ML_%C2%B7_CV_%C2%B7_DS_%C2%B7_DA-0284c7?style=for-the-badge&logo=pytorch&logoColor=38bdf8&labelColor=060913" alt="Focus ML CV DS DA" />
 </p>
 
 </div>
