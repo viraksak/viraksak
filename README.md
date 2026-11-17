@@ -48,38 +48,42 @@
 
 #### 🔹 PROGRAMMING LANGUAGES
 
-[![Programming Languages](https://skillicons.dev/icons?i=python,c,cpp,java,r,js,ts&perline=7)](https://skillicons.dev)
-<br/>
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=060913" alt="SQL" />
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,java,r,js,ts&perline=7" alt="Programming Languages" />
+</a>
+<a href="https://skills.syvixor.com">
+  <img src="https://skills.syvixor.com/api/icons?i=sql" alt="SQL" />
+</a>
 
 #### 🔹 DATA SCIENCE & ANALYTICS
 
+<a href="https://skills.syvixor.com">
+  <img src="https://skills.syvixor.com/api/icons?i=pandas,numpy,excel,tableau,bigquery,googlesheets&perline=6" alt="Data Science and Analytics Tools" />
+</a>
+<br/>
 <img src="https://img.shields.io/badge/Data_Science-00f3ff?style=for-the-badge&logo=databricks&logoColor=00f3ff&labelColor=060913" alt="Data Science" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white&labelColor=060913" alt="Pandas" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=38bdf8&labelColor=060913" alt="NumPy" />
 <img src="https://img.shields.io/badge/EDA-0284c7?style=for-the-badge&logo=google-analytics&logoColor=white&labelColor=060913" alt="EDA" />
 <img src="https://img.shields.io/badge/Statistics-10b981?style=for-the-badge&logo=quicklook&logoColor=white&labelColor=060913" alt="Statistics" />
 <img src="https://img.shields.io/badge/Data_Visualization-6366f1?style=for-the-badge&logo=plotly&logoColor=white&labelColor=060913" alt="Data Visualization" />
-<br/>
 <img src="https://img.shields.io/badge/Data_Analytics-0ea5e9?style=for-the-badge&logo=google-analytics&logoColor=white&labelColor=060913" alt="Data Analytics" />
-<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white&labelColor=060913" alt="Excel" />
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white&labelColor=060913" alt="Tableau" />
-<img src="https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=google-bigquery&logoColor=white&labelColor=060913" alt="BigQuery" />
-<img src="https://img.shields.io/badge/Spreadsheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white&labelColor=060913" alt="Spreadsheets" />
 
 #### 🔹 AI / MACHINE LEARNING & COMPUTER VISION
 
-[![AI & Computer Vision](https://skillicons.dev/icons?i=opencv)](https://skillicons.dev)
+<a href="https://skills.syvixor.com">
+  <img src="https://skills.syvixor.com/api/icons?i=opencv,scikitlearn,yolo&perline=3" alt="AI Machine Learning and Computer Vision" />
+</a>
 <br/>
 <img src="https://img.shields.io/badge/Machine_Learning-00f3ff?style=for-the-badge&logo=scikit-learn&logoColor=00f3ff&labelColor=060913" alt="Machine Learning" />
 <img src="https://img.shields.io/badge/Computer_Vision-ff007a?style=for-the-badge&logo=opencv&logoColor=ff007a&labelColor=060913" alt="Computer Vision" />
-<img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=target&logoColor=00FFFF&labelColor=060913" alt="YOLO" />
 
 #### 🔹 WEB, BACKEND & DATABASES
 
-[![Web Backend Databases](https://skillicons.dev/icons?i=nextjs,fastapi,postgres,firebase&perline=4)](https://skillicons.dev)
-<br/>
-<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white&labelColor=060913" alt="SQL Server" />
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=nextjs,fastapi,postgres,firebase&perline=4" alt="Web Backend and Databases" />
+</a>
+<a href="https://skills.syvixor.com">
+  <img src="https://skills.syvixor.com/api/icons?i=sqlserver" alt="SQL Server" />
+</a>
 
 #### 🔹 TOOLS & DEVOPS
 
