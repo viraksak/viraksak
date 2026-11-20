@@ -48,50 +48,88 @@
 
 #### 🔹 PROGRAMMING LANGUAGES
 
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,java,r,js,ts&perline=7" alt="Programming Languages" />
-</a>
-<a href="https://skills.syvixor.com">
-  <img src="https://skills.syvixor.com/api/icons?i=sql" alt="SQL" />
-</a>
+<table>
+  <tr>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=python" width="44" height="44" alt="Python"/><br/><sub><b>Python</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=c" width="44" height="44" alt="C"/><br/><sub><b>C</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=cpp" width="44" height="44" alt="C++"/><br/><sub><b>C++</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=java" width="44" height="44" alt="Java"/><br/><sub><b>Java</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=r" width="44" height="44" alt="R"/><br/><sub><b>R</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=js" width="44" height="44" alt="JavaScript"/><br/><sub><b>JavaScript</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=ts" width="44" height="44" alt="TypeScript"/><br/><sub><b>TypeScript</b></sub></td>
+    <td align="center" width="90"><img src="https://skills.syvixor.com/api/icons?i=sql" width="44" height="44" alt="SQL"/><br/><sub><b>SQL</b></sub></td>
+  </tr>
+</table>
 
 #### 🔹 DATA SCIENCE & ANALYTICS
 
-<img src="assets/icons/data-science.svg" width="48" height="48" alt="Data Science" title="Data Science" />
-<img src="assets/icons/eda.svg" width="48" height="48" alt="EDA" title="Exploratory Data Analysis (EDA)" />
-<img src="assets/icons/statistics.svg" width="48" height="48" alt="Statistics" title="Statistics" />
-<img src="assets/icons/data-viz.svg" width="48" height="48" alt="Data Visualization" title="Data Visualization" />
-<img src="assets/icons/data-analytics.svg" width="48" height="48" alt="Data Analytics" title="Data Analytics" />
-<br/>
-<a href="https://skills.syvixor.com">
-  <img src="https://skills.syvixor.com/api/icons?i=pandas,numpy,matplotlib,seaborn,plotly,scipy,jupyter&perline=7" alt="Data Science Python Libraries and Notebooks" />
-</a>
-<br/>
-<a href="https://skills.syvixor.com">
-  <img src="https://skills.syvixor.com/api/icons?i=excel,tableau,powerbi,bigquery,googlesheets,kaggle&perline=6" alt="BI, Warehousing, and Spreadsheets" />
-</a>
+<table>
+  <tr>
+    <td align="center" width="96"><img src="assets/icons/data-science.svg" width="44" height="44" alt="Data Science"/><br/><sub><b>Data Science</b></sub></td>
+    <td align="center" width="96"><img src="assets/icons/eda.svg" width="44" height="44" alt="EDA"/><br/><sub><b>EDA</b></sub></td>
+    <td align="center" width="96"><img src="assets/icons/statistics.svg" width="44" height="44" alt="Statistics"/><br/><sub><b>Statistics</b></sub></td>
+    <td align="center" width="96"><img src="assets/icons/data-viz.svg" width="44" height="44" alt="Data Visualization"/><br/><sub><b>Data Viz</b></sub></td>
+    <td align="center" width="96"><img src="assets/icons/data-analytics.svg" width="44" height="44" alt="Data Analytics"/><br/><sub><b>Data Analytics</b></sub></td>
+    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=kaggle" width="44" height="44" alt="Kaggle"/><br/><sub><b>Kaggle</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=pandas" width="44" height="44" alt="Pandas"/><br/><sub><b>Pandas</b></sub></td>
+    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=numpy" width="44" height="44" alt="NumPy"/><br/><sub><b>NumPy</b></sub></td>
+    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=matplotlib" width="44" height="44" alt="Matplotlib"/><br/><sub><b>Matplotlib</b></sub></td>
+    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=seaborn" width="44" height="44" alt="Seaborn"/><br/><sub><b>Seaborn</b></sub></td>
+    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=plotly" width="44" height="44" alt="Plotly"/><br/><sub><b>Plotly</b></sub></td>
+    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=scipy" width="44" height="44" alt="SciPy"/><br/><sub><b>SciPy</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=jupyter" width="44" height="44" alt="Jupyter"/><br/><sub><b>Jupyter</b></sub></td>
+    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=excel" width="44" height="44" alt="Excel"/><br/><sub><b>Excel</b></sub></td>
+    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=tableau" width="44" height="44" alt="Tableau"/><br/><sub><b>Tableau</b></sub></td>
+    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=powerbi" width="44" height="44" alt="Power BI"/><br/><sub><b>Power BI</b></sub></td>
+    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=bigquery" width="44" height="44" alt="BigQuery"/><br/><sub><b>BigQuery</b></sub></td>
+    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=googlesheets" width="44" height="44" alt="Spreadsheets"/><br/><sub><b>Spreadsheets</b></sub></td>
+  </tr>
+</table>
 
 #### 🔹 AI / MACHINE LEARNING & COMPUTER VISION
 
-<img src="assets/icons/machine-learning.svg" width="48" height="48" alt="Machine Learning" title="Machine Learning" />
-<img src="assets/icons/computer-vision.svg" width="48" height="48" alt="Computer Vision" title="Computer Vision" />
-<br/>
-<a href="https://skills.syvixor.com">
-  <img src="https://skills.syvixor.com/api/icons?i=pytorch,tensorflow,keras,scikitlearn,opencv,yolo,huggingface&perline=7" alt="AI, Machine Learning, and Computer Vision Frameworks" />
-</a>
+<table>
+  <tr>
+    <td align="center" width="105"><img src="assets/icons/machine-learning.svg" width="44" height="44" alt="Machine Learning"/><br/><sub><b>Machine Learning</b></sub></td>
+    <td align="center" width="105"><img src="assets/icons/computer-vision.svg" width="44" height="44" alt="Computer Vision"/><br/><sub><b>Computer Vision</b></sub></td>
+    <td align="center" width="105"><img src="https://skills.syvixor.com/api/icons?i=pytorch" width="44" height="44" alt="PyTorch"/><br/><sub><b>PyTorch</b></sub></td>
+    <td align="center" width="105"><img src="https://skills.syvixor.com/api/icons?i=tensorflow" width="44" height="44" alt="TensorFlow"/><br/><sub><b>TensorFlow</b></sub></td>
+    <td align="center" width="105"><img src="https://skills.syvixor.com/api/icons?i=keras" width="44" height="44" alt="Keras"/><br/><sub><b>Keras</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="105"><img src="https://skills.syvixor.com/api/icons?i=scikitlearn" width="44" height="44" alt="Scikit-Learn"/><br/><sub><b>Scikit-Learn</b></sub></td>
+    <td align="center" width="105"><img src="https://skills.syvixor.com/api/icons?i=opencv" width="44" height="44" alt="OpenCV"/><br/><sub><b>OpenCV</b></sub></td>
+    <td align="center" width="105"><img src="https://skills.syvixor.com/api/icons?i=yolo" width="44" height="44" alt="YOLO"/><br/><sub><b>YOLO</b></sub></td>
+    <td align="center" width="105"><img src="https://skills.syvixor.com/api/icons?i=huggingface" width="44" height="44" alt="Hugging Face"/><br/><sub><b>Hugging Face</b></sub></td>
+    <td align="center" width="105"></td>
+  </tr>
+</table>
 
 #### 🔹 WEB, BACKEND & DATABASES
 
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=nextjs,fastapi,postgres,firebase&perline=4" alt="Web Backend and Databases" />
-</a>
-<a href="https://skills.syvixor.com">
-  <img src="https://skills.syvixor.com/api/icons?i=sqlserver" alt="SQL Server" />
-</a>
+<table>
+  <tr>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=nextjs" width="44" height="44" alt="Next.js"/><br/><sub><b>Next.js</b></sub></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=fastapi" width="44" height="44" alt="FastAPI"/><br/><sub><b>FastAPI</b></sub></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=postgres" width="44" height="44" alt="PostgreSQL"/><br/><sub><b>PostgreSQL</b></sub></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=firebase" width="44" height="44" alt="Firebase"/><br/><sub><b>Firebase</b></sub></td>
+    <td align="center" width="100"><img src="https://skills.syvixor.com/api/icons?i=sqlserver" width="44" height="44" alt="SQL Server"/><br/><sub><b>SQL Server</b></sub></td>
+  </tr>
+</table>
 
 #### 🔹 TOOLS & DEVOPS
 
-[![Tools & DevOps](https://skillicons.dev/icons?i=git,github,docker&perline=3)](https://skillicons.dev)
+<table>
+  <tr>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=git" width="44" height="44" alt="Git"/><br/><sub><b>Git</b></sub></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=github" width="44" height="44" alt="GitHub"/><br/><sub><b>GitHub</b></sub></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=docker" width="44" height="44" alt="Docker"/><br/><sub><b>Docker</b></sub></td>
+  </tr>
+</table>
 
 </div>
 
@@ -122,9 +160,5 @@
 <a href="mailto:viraksakkoy8@gmail.com"><img src="https://skills.syvixor.com/api/icons?i=gmail" width="42" height="42" alt="Email" title="viraksakkoy8@gmail.com" /></a>
 &nbsp;
 <a href="https://www.facebook.com/viraksak.koy.1"><img src="https://skills.syvixor.com/api/icons?i=facebook" width="42" height="42" alt="Facebook" title="Facebook" /></a>
-
-<br/>
-
-<sub>CLASSIFIED AI RESEARCH LAB // COPYRIGHT © 2026 VIRAKSAK KOY. ALL RIGHTS RESERVED.</sub>
 
 </div>
