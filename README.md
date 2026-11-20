@@ -128,7 +128,7 @@
   </tr>
   <tr>
     <td align="center" width="100"><img src="https://skillicons.dev/icons?i=firebase" width="44" height="44" alt="Firebase"/><br/><sub><b>Firebase</b></sub></td>
-    <td align="center" width="100"><img src="https://skills.syvixor.com/api/icons?i=sqlserver" width="44" height="44" alt="SQL Server"/><br/><sub><b>SQL Server</b></sub></td>
+    <td align="center" width="100"><img src="assets/icons/sql-server.svg" width="44" height="44" alt="SQL Server"/><br/><sub><b>SQL Server</b></sub></td>
     <td align="center" width="100"></td>
   </tr>
 </table>

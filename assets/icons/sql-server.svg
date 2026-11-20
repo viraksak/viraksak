@@ -1,0 +1,35 @@
+<svg width="48" height="48" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sqlTop" x1="56" y1="68" x2="200" y2="68" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="50%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="sqlRibbonBack" x1="56" y1="80" x2="200" y2="176" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="60%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#93C5FD"/>
+    </linearGradient>
+    <linearGradient id="sqlRibbonFront" x1="56" y1="176" x2="200" y2="80" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="55%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <linearGradient id="sqlBot" x1="56" y1="188" x2="200" y2="188" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#312E81"/>
+      <stop offset="50%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="40" fill="#15191C"/>
+  <!-- Top Cylinder Rim -->
+  <ellipse cx="128" cy="68" rx="70" ry="22" fill="url(#sqlTop)"/>
+  <ellipse cx="128" cy="68" rx="54" ry="13" fill="#15191C"/>
+  <!-- Back Diagonal Ribbon (Top-Left to Bottom-Right) -->
+  <path d="M 58 68 L 58 96 C 58 112, 200 144, 200 160 L 200 188 C 200 172, 58 140, 58 124 Z" fill="url(#sqlRibbonBack)" opacity="0.88"/>
+  <!-- Bottom Cylinder Rim -->
+  <ellipse cx="128" cy="188" rx="70" ry="22" fill="url(#sqlBot)"/>
+  <ellipse cx="128" cy="188" rx="54" ry="13" fill="#15191C"/>
+  <!-- Front Diagonal Ribbon (Bottom-Left to Top-Right) -->
+  <path d="M 58 188 L 58 158 C 58 140, 198 108, 198 92 L 198 68 C 198 84, 58 116, 58 134 Z" fill="url(#sqlRibbonFront)"/>
+</svg>
