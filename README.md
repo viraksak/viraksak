@@ -14,10 +14,10 @@
 <div align="center">
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%91%A4%20name-viraksak%20koy-00b4d8" alt="Viraksak Koy" />
-  <img src="https://img.shields.io/badge/%F0%9F%A7%A0%20major-ai%20%26%20data%20science-9d4edd" alt="AI & Data Science" />
-  <img src="https://img.shields.io/badge/%F0%9F%8E%AF%20focus-ml%20%C2%B7%20cv%20%C2%B7%20ds%20%C2%B7%20da-0284c7" alt="ML CV DS DA" />
-  <a href="https://hust.edu.vn/"><img src="https://img.shields.io/badge/%F0%9F%8E%93%20university-hust-e74c3c" alt="University HUST" /></a>
+  <img src="https://img.shields.io/badge/name-viraksak%20koy-00b4d8" alt="Viraksak Koy" />
+  <img src="https://img.shields.io/badge/major-ai%20%26%20data%20science-9d4edd" alt="AI & Data Science" />
+  <img src="https://img.shields.io/badge/focus-ml%20%C2%B7%20cv%20%C2%B7%20ds%20%C2%B7%20da-0284c7" alt="ML CV DS DA" />
+  <a href="https://hust.edu.vn/"><img src="https://img.shields.io/badge/university-hust-e74c3c" alt="University HUST" /></a>
 </p>
 
 </div>
