@@ -6,20 +6,10 @@
 <!-- ======================================================== -->
 <img src="assets/face-pointcloud.gif" alt="Viraksak KOY 3D Face Point Cloud" width="100%">
 
-<br/><br/>
-
-<!-- ======================================================== -->
-<!-- 2. GITHUB CONTRIBUTION SNAKE (IMMEDIATELY AFTER HERO)   -->
-<!-- ======================================================== -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/viraksak/viraksak/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/viraksak/viraksak/output/github-contribution-grid-snake.svg">
-  <img src="https://raw.githubusercontent.com/viraksak/viraksak/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%">
-</picture>
-
 <br/>
+
 <!-- ======================================================== -->
-<!-- 3. IDENTITY BADGES                                       -->
+<!-- 2. IDENTITY BADGES                                       -->
 <!-- ======================================================== -->
 <div align="center">
 
@@ -32,6 +22,17 @@
 </p>
 
 </div>
+
+<br/>
+
+<!-- ======================================================== -->
+<!-- 3. GITHUB CONTRIBUTION SNAKE                             -->
+<!-- ======================================================== -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/viraksak/viraksak/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/viraksak/viraksak/output/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/viraksak/viraksak/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%">
+</picture>
 
 ---
 
