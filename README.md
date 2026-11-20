@@ -14,10 +14,9 @@
 <div align="center">
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-VIRAKSAK_KOY-00f3ff?style=for-the-badge&logo=terminal&logoColor=060913" alt="Viraksak Koy" />
-  <img src="https://img.shields.io/badge/-AI_%26_DATA_SCIENCE-9d4edd?style=for-the-badge&logo=probot&logoColor=white" alt="AI & Data Science" />
-  <img src="https://img.shields.io/badge/-ML_%C2%B7_CV_%C2%B7_DS_%C2%B7_DA-0284c7?style=for-the-badge&logo=pytorch&logoColor=white" alt="ML CV DS DA" />
-  <br/>
+  <img src="https://img.shields.io/badge/%F0%9F%91%A4%20name-viraksak%20koy-00b4d8" alt="Viraksak Koy" />
+  <img src="https://img.shields.io/badge/%F0%9F%A7%A0%20major-ai%20%26%20data%20science-9d4edd" alt="AI & Data Science" />
+  <img src="https://img.shields.io/badge/%F0%9F%8E%AF%20focus-ml%20%C2%B7%20cv%20%C2%B7%20ds%20%C2%B7%20da-0284c7" alt="ML CV DS DA" />
   <a href="https://hust.edu.vn/"><img src="https://img.shields.io/badge/%F0%9F%8E%93%20university-hust-e74c3c" alt="University HUST" /></a>
 </p>
 
