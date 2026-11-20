@@ -57,24 +57,28 @@
 
 #### 🔹 DATA SCIENCE & ANALYTICS
 
+<img src="assets/icons/data-science.svg" width="48" height="48" alt="Data Science" title="Data Science" />
+<img src="assets/icons/eda.svg" width="48" height="48" alt="EDA" title="Exploratory Data Analysis (EDA)" />
+<img src="assets/icons/statistics.svg" width="48" height="48" alt="Statistics" title="Statistics" />
+<img src="assets/icons/data-viz.svg" width="48" height="48" alt="Data Visualization" title="Data Visualization" />
+<img src="assets/icons/data-analytics.svg" width="48" height="48" alt="Data Analytics" title="Data Analytics" />
+<br/>
 <a href="https://skills.syvixor.com">
-  <img src="https://skills.syvixor.com/api/icons?i=pandas,numpy,excel,tableau,bigquery,googlesheets&perline=6" alt="Data Science and Analytics Tools" />
+  <img src="https://skills.syvixor.com/api/icons?i=pandas,numpy,matplotlib,seaborn,plotly,scipy,jupyter&perline=7" alt="Data Science Python Libraries and Notebooks" />
 </a>
 <br/>
-<img src="https://img.shields.io/badge/Data_Science-00f3ff?style=for-the-badge&logo=databricks&logoColor=00f3ff&labelColor=060913" alt="Data Science" />
-<img src="https://img.shields.io/badge/EDA-0284c7?style=for-the-badge&logo=google-analytics&logoColor=white&labelColor=060913" alt="EDA" />
-<img src="https://img.shields.io/badge/Statistics-10b981?style=for-the-badge&logo=quicklook&logoColor=white&labelColor=060913" alt="Statistics" />
-<img src="https://img.shields.io/badge/Data_Visualization-6366f1?style=for-the-badge&logo=plotly&logoColor=white&labelColor=060913" alt="Data Visualization" />
-<img src="https://img.shields.io/badge/Data_Analytics-0ea5e9?style=for-the-badge&logo=google-analytics&logoColor=white&labelColor=060913" alt="Data Analytics" />
+<a href="https://skills.syvixor.com">
+  <img src="https://skills.syvixor.com/api/icons?i=excel,tableau,powerbi,bigquery,googlesheets,kaggle&perline=6" alt="BI, Warehousing, and Spreadsheets" />
+</a>
 
 #### 🔹 AI / MACHINE LEARNING & COMPUTER VISION
 
-<a href="https://skills.syvixor.com">
-  <img src="https://skills.syvixor.com/api/icons?i=opencv,scikitlearn,yolo&perline=3" alt="AI Machine Learning and Computer Vision" />
-</a>
+<img src="assets/icons/machine-learning.svg" width="48" height="48" alt="Machine Learning" title="Machine Learning" />
+<img src="assets/icons/computer-vision.svg" width="48" height="48" alt="Computer Vision" title="Computer Vision" />
 <br/>
-<img src="https://img.shields.io/badge/Machine_Learning-00f3ff?style=for-the-badge&logo=scikit-learn&logoColor=00f3ff&labelColor=060913" alt="Machine Learning" />
-<img src="https://img.shields.io/badge/Computer_Vision-ff007a?style=for-the-badge&logo=opencv&logoColor=ff007a&labelColor=060913" alt="Computer Vision" />
+<a href="https://skills.syvixor.com">
+  <img src="https://skills.syvixor.com/api/icons?i=pytorch,tensorflow,keras,scikitlearn,opencv,yolo,huggingface&perline=7" alt="AI, Machine Learning, and Computer Vision Frameworks" />
+</a>
 
 #### 🔹 WEB, BACKEND & DATABASES
 
@@ -111,13 +115,13 @@
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GITHUB-viraksak-00f3ff?style=for-the-badge&logo=github&logoColor=black&labelColor=060913)](https://github.com/viraksak)
+<a href="https://github.com/viraksak"><img src="https://skills.syvixor.com/api/icons?i=github" width="42" height="42" alt="GitHub" title="GitHub" /></a>
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-Viraksak_KOY-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=060913)](https://www.linkedin.com/in/viraksak-koy-6b068a261/)
+<a href="https://www.linkedin.com/in/viraksak-koy-6b068a261/"><img src="https://skills.syvixor.com/api/icons?i=linkedin" width="42" height="42" alt="LinkedIn" title="LinkedIn" /></a>
 &nbsp;
-[![Email](https://img.shields.io/badge/ENCRYPTED_COMMS-viraksakkoy8%40gmail.com-ff007a?style=for-the-badge&logo=gmail&logoColor=white&labelColor=060913)](mailto:viraksakkoy8@gmail.com)
+<a href="mailto:viraksakkoy8@gmail.com"><img src="https://skills.syvixor.com/api/icons?i=gmail" width="42" height="42" alt="Email" title="viraksakkoy8@gmail.com" /></a>
 &nbsp;
-[![Facebook](https://img.shields.io/badge/FACEBOOK-ViraksakKoy-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=060913)](https://www.facebook.com/viraksak.koy.1)
+<a href="https://www.facebook.com/viraksak.koy.1"><img src="https://skills.syvixor.com/api/icons?i=facebook" width="42" height="42" alt="Facebook" title="Facebook" /></a>
 
 <br/>
 
