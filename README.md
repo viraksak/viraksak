@@ -92,7 +92,7 @@
   </tr>
   <tr>
     <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=googlesheets" width="44" height="44" alt="Spreadsheets"/><br/><sub><b>Sheets</b></sub></td>
-    <td align="center" width="96"></td>
+    <td align="center" width="96"><img src="assets/icons/data-storytelling.svg" width="44" height="44" alt="Data Storytelling"/><br/><sub><b>Storytelling</b></sub></td>
     <td align="center" width="96"></td>
     <td align="center" width="96"></td>
   </tr>

@@ -1,0 +1,14 @@
+<svg width="48" height="48" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="40" fill="#15191C"/>
+  <!-- Presentation / Storyboard Card -->
+  <rect x="44" y="54" width="168" height="120" rx="14" stroke="#00F3FF" stroke-width="10" fill="#0F172A"/>
+  <!-- Stand -->
+  <line x1="128" y1="174" x2="128" y2="206" stroke="#38BDF8" stroke-width="10" stroke-linecap="round"/>
+  <line x1="92" y1="206" x2="164" y2="206" stroke="#38BDF8" stroke-width="10" stroke-linecap="round"/>
+  <!-- Narrative Trend Line & Insight Nodes -->
+  <path d="M 68 140 L 104 114 L 138 128 L 184 84" stroke="#A855F7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="68" cy="140" r="9" fill="#00F3FF"/>
+  <circle cx="104" cy="114" r="9" fill="#38BDF8"/>
+  <circle cx="138" cy="128" r="9" fill="#EC4899"/>
+  <circle cx="184" cy="84" r="11" fill="#39FF14"/>
+</svg>
