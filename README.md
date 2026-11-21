@@ -56,10 +56,10 @@
     <td align="center" width="96"><img src="https://skillicons.dev/icons?i=java" width="44" height="44" alt="Java"/><br/><sub><b>&nbsp;&nbsp;Java&nbsp;&nbsp;</b></sub></td>
   </tr>
   <tr>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=r" width="44" height="44" alt="R"/><br/><sub><b>&nbsp;&nbsp;&nbsp;R&nbsp;&nbsp;&nbsp;</b></sub></td>
     <td align="center" width="96"><img src="https://skillicons.dev/icons?i=js" width="44" height="44" alt="JavaScript"/><br/><sub><b>JavaScript</b></sub></td>
     <td align="center" width="96"><img src="https://skillicons.dev/icons?i=ts" width="44" height="44" alt="TypeScript"/><br/><sub><b>TypeScript</b></sub></td>
     <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=sql" width="44" height="44" alt="SQL"/><br/><sub><b>&nbsp;&nbsp;SQL&nbsp;&nbsp;</b></sub></td>
+    <td align="center" width="96"></td>
   </tr>
 </table>
 
@@ -88,11 +88,11 @@
     <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=jupyter" width="44" height="44" alt="Jupyter"/><br/><sub><b>Jupyter</b></sub></td>
     <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=excel" width="44" height="44" alt="Excel"/><br/><sub><b>Excel</b></sub></td>
     <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=tableau" width="44" height="44" alt="Tableau"/><br/><sub><b>Tableau</b></sub></td>
-    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=powerbi" width="44" height="44" alt="Power BI"/><br/><sub><b>Power BI</b></sub></td>
+    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=bigquery" width="44" height="44" alt="BigQuery"/><br/><sub><b>BigQuery</b></sub></td>
   </tr>
   <tr>
-    <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=bigquery" width="44" height="44" alt="BigQuery"/><br/><sub><b>BigQuery</b></sub></td>
     <td align="center" width="96"><img src="https://skills.syvixor.com/api/icons?i=googlesheets" width="44" height="44" alt="Spreadsheets"/><br/><sub><b>Sheets</b></sub></td>
+    <td align="center" width="96"></td>
     <td align="center" width="96"></td>
     <td align="center" width="96"></td>
   </tr>
