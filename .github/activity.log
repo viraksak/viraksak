@@ -2071,3 +2071,4 @@
 [2026-11-26T21:16:02+07:00] research: clean and normalize dataset features [daily pulse #5]
 [2026-11-27T07:47:43+07:00] research: benchmark object tracking latency [daily pulse #1]
 [2026-11-27T07:47:43+07:00] research: fine-tune vision transformer backbone [daily pulse #2]
+[2026-11-27T07:47:43+07:00] research: optimize YOLOv11 inference pipeline [daily pulse #3]
